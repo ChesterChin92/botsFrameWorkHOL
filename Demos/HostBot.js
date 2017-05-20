@@ -15,6 +15,8 @@ function(session,result){
 
 
 ]);
+
+//Start the server and listen/
 restify.se
 var server = restify.createServer();
 server.listen(process.env.port||process.env.PORT||3978,function(){
